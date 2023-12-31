@@ -12,10 +12,12 @@
     <input type="text" class="height" /> Height
     <input type="text" class="weight" /> Weight
     <button type="button" class="btn--submit">Submit</button>
-    <input type="radio" class="radio--0" name="gender" /> Male
-    <input type="radio" class="radio--1" name="gender" /> Female
+    <input type="radio" class="radio--0" name="units" checked value="0" />
+    Metric (kg, m)
+    <input type="radio" value="1" class="radio--1" name="units" /> Imperial
+    (lbs, in)
     <script src="script.js"></script>
 
-    <p class="result">Result is:</p>
+    <p class="result hidden">Result is:</p>
   </body>
 </html>
