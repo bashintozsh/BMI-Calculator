@@ -58,7 +58,6 @@ body {
   border: 2px solid transparent;
   cursor: pointer;
   width: 100%;
-  flex-grow: 0;
 }
 .btn--submit:active {
   background-color: black;
