@@ -21,14 +21,14 @@ body {
   position: relative;
   border: dashed 1px #000080;
   margin-bottom: 10px;
+  width: 50%;
   font-size: 18.3px;
   text-align: center;
-  flex-grow: 0;
 }
 
 .flexbox-item {
   color: red;
-  width: 30%;
+  width: 50%;
   margin-bottom: 5px;
   text-align: center;
   border: 1px dotted purple;
@@ -49,7 +49,7 @@ body {
 }
 
 .flexbox-button-submit {
-  width: 15%;
+  width: 20%;
 }
 
 .btn--submit {
@@ -57,7 +57,7 @@ body {
   color: white;
   border: 2px solid transparent;
   cursor: pointer;
-  flex-grow: 0;
+  width: 100%;
 }
 .btn--submit:active {
   background-color: black;
