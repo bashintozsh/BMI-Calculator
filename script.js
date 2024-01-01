@@ -8,12 +8,7 @@ function bmiMetric(weight, height) {
   return bmiMetric;
 }
 
-// BMI Formula (Imperial)
-function bmiImperial(weight, height) {
-  const bmiImperial = (703 * weight) / height ** 2;
-  return bmiImperial;
-}
-
+document.querySelector('.result').classList.add('hidden');
 // Submit button event listener
 document.querySelector('.btn--submit').addEventListener('click', function () {
   // Gets values from user (age, height, weight)

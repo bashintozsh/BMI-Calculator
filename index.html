@@ -8,16 +8,18 @@
     <h1>BMI Calculator</h1>
   </head>
   <body>
-    <input type="text" class="age" /> Age
-    <input type="text" class="height" /> Height
-    <input type="text" class="weight" /> Weight
-    <button type="button" class="btn--submit">Submit</button>
-    <input type="radio" class="radio--0" name="units" checked value="0" />
-    Metric (kg, m)
-    <input type="radio" value="1" class="radio--1" name="units" /> Imperial
-    (lbs, in)
+    <div class="text-fields">
+      <p class="text-age">Age</p>
+      <input type="text" class="age" />
+      <p class="text-height">Height</p>
+      <input type="text" class="height" />
+      <p class="text-weight">Weight</p>
+      <input type="text" class="weight" />
+      <button type="button" class="btn--submit">Submit</button>
+    </div>
+    <div class="buttons">
+      <p class="result">Result is:</p>
+    </div>
     <script src="script.js"></script>
-
-    <p class="result hidden">Result is:</p>
   </body>
 </html>
