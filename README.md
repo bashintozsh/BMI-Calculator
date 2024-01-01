@@ -12,3 +12,4 @@ TODO:
 1. Add imperial option and not just metric.
 2. Add an error message when metric height is typed in wrong format.
 3. Add some animations.
+4. Add healthy/unhealthy meter/message.
