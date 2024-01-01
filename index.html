@@ -5,10 +5,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BMI Calculator</title>
-    <h1>BMI Calculator</h1>
   </head>
   <body>
-    <div class="text-fields">
+    <div class="flexbox-container">
+      <div class="flexbox-item-header">
+        <h1>BMI Calculator</h1>
+        <h4>Made by Ziya Sharifli</h4>
+        <a href="www.github.com"
+          ><img src="github-logo.png" width="40" align="center" />
+        </a>
+      </div>
+      <div class="flexbox-item">
+        <p>Your age:</p>
+        <input type="text" class="flex-input flex-input-age" />
+      </div>
+      <div class="flexbox-item">
+        <p>Your height (in x.xx cm):</p>
+        <input type="text" class="flex-input flex-input-height" />
+      </div>
+      <div class="flexbox-item">
+        <p>Your weight: (in kg)</p>
+        <input type="text" class="flex-input flex-input-weight" />
+      </div>
+      <div class="flexbox-item flexbox-button-submit">
+        <button type="button" class="btn--submit">Submit</button>
+      </div>
+      <div class="flexbox-item flexbox-item-result">
+        <p class="result">Result is:</p>
+      </div>
+    </div>
+    <!-- <div class="text-fields">
       <p class="text-age">Age</p>
       <input type="text" class="age" />
       <p class="text-height">Height</p>
@@ -19,7 +45,7 @@
     </div>
     <div class="buttons">
       <p class="result">Result is:</p>
-    </div>
+    </div> -->
     <script src="script.js"></script>
   </body>
 </html>

@@ -1,14 +1,3 @@
-h1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: auto;
-  width: 50%;
-  border: 3px solid navy;
-  padding: 10px;
-}
-
-.h1,
 .hidden {
   display: none;
 }
@@ -18,32 +7,60 @@ body {
   color: white;
 }
 
-.text-fields {
+.flexbox-container {
+  height: 60rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: auto;
-  width: 50%;
-  border: 3px solid navy;
+  justify-content: center;
+  border: solid 3px red;
+}
+
+.flexbox-item-header {
   padding: 10px;
+  position: relative;
+  border: dashed 1px #000080;
+  margin-bottom: 10px;
+  font-size: 18.3px;
+  text-align: center;
+  flex-grow: 0;
+}
+
+.flexbox-item {
+  color: red;
+  width: 30%;
+  margin-bottom: 5px;
+  text-align: center;
+  border: 1px dotted purple;
+}
+
+.flex-input {
+  margin-bottom: 10px;
+  width: 70%;
+  background-color: black;
+  color: navajowhite;
+  border: none;
+  border-bottom: 2px solid red;
+  text-align: center;
+}
+
+.flexbox-button-submit {
+  width: 15%;
 }
 
 .btn--submit {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 15px;
-  width: 10%;
-  border: 1px solid red;
-  padding: 10px;
+  background-color: black;
+  color: white;
+  border: 2px solid transparent;
+  cursor: pointer;
+  flex-grow: 0;
+}
+.btn--submit:active {
+  background-color: black;
+  color: green;
+  border: 2px solid transparent;
 }
 
-.result {
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  margin: auto;
-  width: 50%;
-  border: 3px solid blueviolet;
-  padding: 10px;
+.flexbox-item-result {
+  border: none;
 }
