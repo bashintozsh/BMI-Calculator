@@ -28,7 +28,7 @@ body {
 
 .flexbox-item {
   color: red;
-  width: 30%;
+  width: 15%;
   margin-bottom: 5px;
   text-align: center;
   border: 1px dotted purple;
@@ -49,7 +49,7 @@ body {
 }
 
 .flexbox-button-submit {
-  width: 20%;
+  width: 10%;
 }
 
 .btn--submit {
