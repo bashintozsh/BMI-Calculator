@@ -4,7 +4,7 @@ Link: https://ziya-sharifli.github.io/BMI-Calculator/
 
 How to use:
 
-Enter your age (which doesn't do anything for now), enter weight and height. You have to enter your height in this format (x.xx cm), for example (1.82cm).
+Enter your age (which doesn't do anything for now), enter weight and height. You have to enter your height in this format (x.xx cm), for example (1.82cm). You can also enter in imperial units, feet goes on top, inch goes on bottom.
 
 TODO:
 
