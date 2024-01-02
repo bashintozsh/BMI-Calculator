@@ -14,4 +14,3 @@ TODO:
 ~~DONE. Add healthy/unhealthy meter/message.~~
 
 1. Add animations
-2. Add better support for mobile
