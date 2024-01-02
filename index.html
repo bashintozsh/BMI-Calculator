@@ -29,15 +29,34 @@
         </a>
       </div>
       <div class="flexbox-item">
+        <input
+          class="unit-radio-1"
+          name="unit"
+          type="radio"
+          value="0"
+          checked
+        />Metric
+        <input
+          class="unit-radio-2"
+          name="unit"
+          type="radio"
+          value="1"
+        />Imperial
+      </div>
+      <div class="flexbox-item">
         <p>Your age:</p>
         <input type="text" class="flex-input flex-input-age" />
       </div>
       <div class="flexbox-item">
-        <p>Your height (in x.xx cm):</p>
+        <p class="input-height">Your height (in x.xx cm):</p>
         <input type="text" class="flex-input flex-input-height" />
+        <input
+          type="text"
+          class="flex-input flex-input-height-imperial hidden"
+        />
       </div>
       <div class="flexbox-item">
-        <p>Your weight: (in kg)</p>
+        <p class="input-weight">Your weight: (in kg)</p>
         <input type="text" class="flex-input flex-input-weight" />
       </div>
       <div class="flexbox-item flexbox-button-submit">
