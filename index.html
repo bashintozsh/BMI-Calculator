@@ -65,6 +65,15 @@
       <div class="flexbox-item flexbox-item-result">
         <p class="result">Result is:</p>
       </div>
+      <div class="flexbox-item flexbox-item-indicator hidden">
+        <p class="healthy hidden">Healthy</p>
+        <p class="underweight hidden">Underweight</p>
+        <p class="overweight hidden">Overweight</p>
+        <p class="obese hidden">Obese</p>
+      </div>
+      <div class="flexbox-item flexbox-button-history">
+        <button type="button" class="btn--history">History</button>
+      </div>
       <div class="whatis">
         <a
           target="_blank"
@@ -73,6 +82,19 @@
           >What is BMI?</a
         >
       </div>
+    </div>
+    <div class="modal hidden">
+      <button class="btn--close">X</button>
+      <table class="history-table">
+        <tr>
+          <th>Count</th>
+          <th>Age</th>
+          <th>Height</th>
+          <th>Weight</th>
+          <th>BMI</th>
+          <th>Health</th>
+        </tr>
+      </table>
     </div>
     <script src="script.js"></script>
   </body>

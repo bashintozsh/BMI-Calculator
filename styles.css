@@ -8,7 +8,7 @@ body {
 }
 
 .flexbox-container {
-  height: 60rem;
+  height: 66rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,6 +35,30 @@ body {
   border: 1px dotted purple;
 }
 
+.healthy {
+  background-color: green;
+  color: green;
+}
+
+.underweight {
+  background-color: yellow;
+  color: yellow;
+}
+
+.overweight {
+  background-color: orange;
+  color: orange;
+}
+
+.flexbox-item-indicator {
+  border: none;
+}
+
+.obese {
+  background-color: red;
+  color: red;
+}
+
 .image-link {
   text-decoration: none;
 }
@@ -53,7 +77,8 @@ body {
   width: 25%;
 }
 
-.btn--submit {
+.btn--submit,
+.btn--history {
   background-color: black;
   color: white;
   border: 2px solid transparent;
@@ -61,12 +86,51 @@ body {
   width: 100%;
   min-width: 170px;
 }
-.btn--submit:active {
+.btn--submit:active,
+.btn--history:active {
   background-color: black;
   color: green;
   border: 2px solid transparent;
 }
 
-.flexbox-item-result {
+.widget .flexbox-item-result {
   border: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  overflow: scroll;
+
+  background-color: #660000;
+  padding: 2.5rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+}
+
+.btn--close {
+  position: absolute;
+  top: 5%;
+  left: 95%;
+  border: none;
+  background-color: black;
+  color: white;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.history-table {
+  border: 1px solid white;
+  color: white;
+  position: relative;
+  margin: auto;
+  width: 20%;
+}
+
+th,
+td {
+  border: 1px solid black;
 }
